@@ -67,10 +67,10 @@
             $handler->query($query);
             $handler->close();
 
-            // echo "<script>
-            //         alert('Registro insertado');
-            //         window.location.href='index.php';
-            //     </script>";
+            echo "<script>
+                    alert('Registro insertado');
+                    window.location.href='index.php';
+                </script>";
 
         } catch (Exception $e) {
             print "�Error!: " . $e->getMessage() . "<br/>";
